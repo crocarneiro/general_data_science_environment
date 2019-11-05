@@ -12,8 +12,11 @@ dependencies:
   - bleach=3.1.0=py_0
   - ca-certificates=2019.9.11=hecc5488_0
   - certifi=2019.9.11=py37_0
+  - cloudpickle=1.2.2=py_0
   - colorama=0.4.1=py_0
   - cycler=0.10.0=py_2
+  - cytoolz=0.10.1=py37hfa6e2cd_0
+  - dask-core=2.6.0=py_0
   - decorator=4.4.1=py_0
   - defusedxml=0.6.0=py_0
   - entrypoints=0.3=py37_1000
@@ -25,6 +28,7 @@ dependencies:
   - hdf5=1.10.5=nompi_ha405e13_1104
   - icc_rt=2019.0.0=h0cc432a_1
   - icu=64.2=he025d50_1
+  - imageio=2.6.1=py37_0
   - importlib_metadata=0.23=py37_0
   - intel-openmp=2019.4=245
   - ipykernel=5.1.3=py37h5ca1d4c_0
@@ -49,10 +53,15 @@ dependencies:
   - libclang=9.0.0=h74a9793_1
   - libgpuarray=0.7.6=hfa6e2cd_1003
   - liblapack=3.8.0=14_mkl
+  - liblapacke=3.8.0=14_mkl
   - libmklml=2019.0.5=0
+  - libopencv=4.1.2=h7e61296_0
   - libpng=1.6.37=h7602738_0
   - libprotobuf=3.10.1=h1a1b453_0
   - libsodium=1.0.17=h2fa13f4_0
+  - libtiff=4.1.0=h2e92f26_0
+  - libwebp=1.0.2=hfa6e2cd_2
+  - lz4-c=1.8.3=he025d50_1001
   - m2w64-gcc-libgfortran=5.3.0=6
   - m2w64-gcc-libs=5.3.0=7
   - m2w64-gcc-libs-core=5.3.0=7
@@ -70,8 +79,11 @@ dependencies:
   - msys2-conda-epoch=20160418=1
   - nbconvert=5.6.1=py37_0
   - nbformat=4.4.0=py_1
+  - networkx=2.4=py_0
   - notebook=6.0.1=py37_0
   - numpy=1.17.3=py37hc71023c_0
+  - olefile=0.46=py_0
+  - opencv=4.1.2=0
   - openssl=1.1.1d=he774522_3
   - opt_einsum=3.1.0=py_0
   - pandas=0.25.3=py37he350917_0
@@ -79,10 +91,12 @@ dependencies:
   - pandocfilters=1.4.2=py_1
   - parso=0.5.1=py_0
   - pickleshare=0.7.5=py37_1000
+  - pillow=6.2.1=py37h643dfcc_0
   - pip=19.3.1=py37_0
   - prometheus_client=0.7.1=py_0
   - prompt_toolkit=2.0.10=py_0
   - protobuf=3.10.1=py37he025d50_0
+  - py-opencv=4.1.2=py37h5ca1d4c_0
   - pygments=2.4.2=py_0
   - pygpu=0.7.6=py37hc8d92b1_1000
   - pyparsing=2.4.3=py_0
@@ -92,12 +106,14 @@ dependencies:
   - python=3.7.5=h8c8aaf0_0
   - python-dateutil=2.8.1=py_0
   - pytz=2019.3=py_0
+  - pywavelets=1.1.1=py37hc8d92b1_0
   - pywin32=225=py37hfa6e2cd_0
   - pywinpty=0.5.5=py37_1000
   - pyyaml=5.1.2=py37hfa6e2cd_0
   - pyzmq=18.1.0=py37h16f9016_0
   - qt=5.12.5=h7ef1ec2_0
   - qtconsole=4.5.5=py_0
+  - scikit-image=0.16.2=py37he350917_0
   - scikit-learn=0.21.3=py37h7208079_0
   - scipy=1.3.1=py37h29ff71c_0
   - send2trash=1.5.0=py_0
@@ -112,6 +128,8 @@ dependencies:
   - terminado=0.8.2=py37_0
   - testpath=0.4.4=py_0
   - theano=1.0.4=py37h6538335_1000
+  - tk=8.6.9=hfa6e2cd_1003
+  - toolz=0.10.0=py_0
   - tornado=6.0.3=py37hfa6e2cd_0
   - traitlets=4.3.3=py37_0
   - vc=14.1=h0510ff6_4
@@ -125,10 +143,12 @@ dependencies:
   - wincertstore=0.2=py37_0
   - winpty=0.4.3=4
   - wrapt=1.11.2=py37hfa6e2cd_0
+  - xz=5.2.4=h2fa13f4_1001
   - yaml=0.1.7=hfa6e2cd_1001
   - zeromq=4.3.2=h6538335_2
   - zipp=0.6.0=py_0
   - zlib=1.2.11=h2fa13f4_1006
+  - zstd=1.4.3=hd8a0e53_0
   - pip:
     - pyqt5-sip==4.19.18
     - pyqtwebengine==5.12.1
